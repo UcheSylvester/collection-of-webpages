@@ -1,6 +1,37 @@
 
 /*General Style Rules*/
 
+/*body {
+	background-image: url(https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?width=700&crop=2:1);
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
+
+body {
+	background: radial-gradient(circle, grey, white);
+}
+
+ul {
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	/*list-style: none;*/
+	cursor: pointer;
+	display: inline-block;
+}
+
+li a {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	color: orange;
+	text-align: center;
+}
+
 h2 {
 	text-align: center;
 	color: green;
@@ -9,4 +40,13 @@ h2 {
 header {
 	background-color: green;
 	color: red;
+}
+
+p {
+	/*text-transform: uppercase;*/
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	
 }
